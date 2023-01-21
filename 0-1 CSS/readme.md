@@ -4,14 +4,6 @@
 
 <br>
 
-# **Introductie**
-
-Tijdens de selectieperiode heb je al kennisgemaakt met de uitdagingen en complexiteit van CSS. In deze Deep Dive kijken we met veel detail naar de belangrijkste onderwerpen in CSS. 
-
-Deze handout bevat veel meer opdrachten dan de handouts die je hiervoor hebt gezien. Ze staan ook onderaan per hoofdstuk ipv allemaal aan het einde. Daarom is het extra belangrijk om een goede structuur in je git repository aan te houden! <span style="text-decoration:underline;">Gebruik voor elke praktijkopdracht een aparte .html file, en sorteer de opdrachten goed per hoofdstuk</span>
-
-<br>
-
 # **Inhoud**
 
 **1.        Selectors & Visual rules**
