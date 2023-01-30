@@ -3,7 +3,7 @@
 Stappen:
 
 1. Maak een nieuw bestand met de extensie .html (bijv. "mijnpagina.html").
-2. Open het bestand in een teksteditor (zoals Notepad, Sublime Text, etc.).
+2. Open het bestand in een teksteditor (zoals Notepad, Sublime Text, Vs - code  etc.).
 3. Voeg de volgende HTML-basisstructuur toe aan het bestand:
   
                     <html>
