@@ -4,24 +4,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="style" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Opdracht 1</h1>
     <p>De drie manieren om CSS in te laden zijn:</p>
-    <ol>
+    <ul>
       <li>Inline: Door de stijlregels te gebruiken in een html element.</li>
       <li>Internal: Door middel van een style element te definieren in het html document en daar de stijlregels in te definieren.</li>
       <li>External: Door in de Header te linken naar een externe file waarin alle stijlregels worden gezet.</li>
-    </ol>
+    </ul>
     <h1>Opdracht 2</h1>
     <p>De syntax van html bestaat uit een selector, gevolgd door een declaration block. De selector selecteert de items waarop de declarationblock van toepassing is. De declaration block bestaat uit meerdere declarations die zelf weer bestaan uit een property, een eigenschap die veranderd wordt en een value, dat hoe de property wordt veranderd.</p>
     <h1>Opdracht 3</h1>
-    <p></p>
+    <p>Hieronder een overzicht van de verschillende selectors:</p>
+    <ul>
+      <li>
+        <ol>
+          <li class="voorbeeld">Voorbeeld type selectors: De h1 elementen van deze pagina</li>
+          <li>Voordelen: Je kan dezelfde elementen allemaal tegelijk selecteren</li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li class="voorbeeld">Voorbeeld class selectors: De voorbeeld list items binnen deze opdracht</li>
+          <li>Voordelen: Je kan een style toevoegen die voor verschillende elementen hetzelfde moeten zijn maar niet voor alle typen. Je kan ze ook delen over verschillende soorten typen elementen.</li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li class="voorbeeld">Voorbeeld id selectors: De voordelen list item van dit type selector.</li>
+          <li id="voordeel_id">Voordelen: Je kan specifieke stijlen toewijzen.</li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li class="voorbeeld">Voorbeeld descendant selectors: de p elementen die volgen na een h1 element op deze pagina.</li>
+          <li>Voordelen: Je kan gericht in een specfieke structuur stylen toewijzen.</li>
+        </ol>
+      </li>
+    </ul>
     <h1>Opdracht 4</h1>
+    <div id="opdracht_4_div">
+      <h2>Title</h2>
+      <p id="opdracht_4_p">paragraph tekst</p>
+      tekst zonder tag
+    </div>
     <h1>Opdracht 5</h1>
+    <h2>Class selectors</h2>
+    <p class="green_paragraph">paragraph tekst</p>
+    <p>paragraph tekst2</p>
+
     <h1>Opdracht 6</h1>
+    <ul class="opdracht_6">
+      <li>Voorbeeld universal selector: de elementen op de pagina 100px naar links</li>
+      <li value="1">Voorbeeld attribute selectors: Dit list item</li>
+      <li>Voorbeeld child selectors: De list items van deze opdracht</li>
+      <li>Voorbeeld adjacent sibling selectors: De p elementen in het blauw na de h1 elementen op deze pagina.</li>
+      <li>Voorbeeld general sibling selectors: Alle h1 zijn niet bold die sibling zijn van p elementen.</li>
+    </ul>
     <h1>Opdracht 7</h1>
+    <ul>
+      <li class="listitem opdracht_7">Voorbeeld meerdere eigenschappen AND selectors: Dit list item</li>
+      <li id="li_7">Voorbeeld meerdere groepen: De list items van deze opdracht.</li>
+    </ul>
     <h1>Opdracht 8</h1>
+    <p id="cascade">Deze p hoort door de descendant selector blauw te zijn. Doordat bepaalde selectoren voorrang hebben op andere is deze nu niet blauw maar cyaan.</p>
   </body>
 </html>
