@@ -2,10 +2,6 @@
 
 ![html_logo](images/image4.png)
 
-# Introductie
-
-Tijdens de selectieperiode heb je al veel geoefend met HTML. Toch zullen we in deze handout nog even kort over de basis heengaan. Ook zal je kennis maken met wat van de meer niche onderdelen van HTML
-
 <br>
 
 # Inhoud
