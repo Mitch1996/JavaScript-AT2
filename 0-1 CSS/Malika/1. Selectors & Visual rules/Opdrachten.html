@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Selectors & Visual rules </title>
+    <link rel="stylesheet" href="Opdrachten.css">
+
+    <style>
+        #para1 {
+            color:crimson
+        }
+    </style>
+
+    <style>
+        .Opdracht {text-align: center; color: blue;}
+    </style>
+
+    <style>
+        dl p {background-color: fuchsia;}
+    </style>
+
+<style>
+    #para2 {
+        color:green
+    }
+</style>
+
+<style>
+    #para3 {
+        color:black
+    }
+</style>
+
+<style>
+ p:first-child {background-color:yellow;
+}
+ </style>
+    
+</head>
+<body>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 1</h3>
+<h4>Je kunt op 3 verschillende manieren CSS in je HTML inladen. Op welke 3 manieren kun je dat doen?
+    Leg ook voor elke wijze uit wat het precies inhoud.
+</h4>
+
+<p>Je kunt CSS op de volgende drie manieren inladen in je HTML:</p>
+
+<ol>
+    <li> External: Hierbij maak je gebruik van een externe stylesheet. In de HTML-pagina zet je een referentie in de <link> element, in de head. </li>
+    <li> Internal: Hierbij defineer je de stijl in de stijl element in de head. </li>
+    <li> Inline: Hierbij voeg je een style attribute toe aan een specifiek element. </li>
+</ol>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 2</h3>
+<h4>CSS pas je toe met een bepaalde syntax. Hoe ziet zo'n syntax eruit? Kun je ook uitleggen wat elk element uit de syntax betekent?</h4>
+
+<p> Elke CSS regel bestaat uit een selector en een declaration block. De selector verwijst naar het HTML element dat je wilt stijlen.
+    De declaration block bevat meerdere declarations die onderscheiden worden door puntkomma's. Elke declaration bevat een CSS property name en value, onderscheiden door een dubbele punt.
+</p>
+<img src="https://www.w3schools.com/css/img_selector.gif" alt="Syntax">
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 3</h3>
+<h4>Er zijn verschillende sectors, bijvoorbeeld type selectors, class selectors, ID selectors en descendant selectors. Maak van deze genoemde selectors voorbeelden.
+    Geef in je antwoord ook aan wat de voordelen zijn van elke selector.
+</h4>
+
+<dl>
+<p> Type selectors: De Type selector selecteert alle elementen met dezelfde type in een document.
+    Voorbeeld:De achtergrondkleur is op de hele pagina roze door Body als type selector te kiezen.
+</p>
+
+<p> Class selectors: De Class selector selecteert alle HTML elementen met dezelfde class attribute.
+    Het voordeel hiervan is dat je meerdere elementen tegelijk kan selecteren.
+    Voorbeeld: Zoals je kunt zien is er een Class genaamd Opdracht (boven elke opdracht op deze pagina).
+    Alle elementen die hiertoe behoren zijn gecentreerd en blauw.
+</p>
+
+<p> ID selectors: De ID selector gebruikt de ID attribute van een HTML element voor het selecteren van een specifiek element. De ID van een element is uniek in een pagina en daarom wordt de ID selector gebruikt om een uniek element te selecteren.
+    Het voordeel van deze selector is dat je heel specifiek een element kan selecteren.
+    Voorbeeld:<p id="para1">IDselectors</p>
+
+</p>
+
+<p> Descendant selectors: Met de Descendant selector kun je alle elementen selecteren die afstammen van een specifiek type element.
+    Voorbeeld: Zoals je ziet is de achtergrondkleur van dit rijtje genoemde selectors fuchsia. Ze stammen allen af van het element dl.
+</p>
+</dl>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 4</h3>
+<h4>Maak een .html file en voeg de volgende code toe:</h4>
+<img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-1%20CSS/images/image7.png" alt="Code">
+<h4>Maak het onderstaande na door gebruik te maken van selectors. De kleuren die hiervoor gebruikt zijn: green en darkblue.</h4>
+<img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-1%20CSS/images/image30.png" alt="Gebruik selectors">
+
+<p>
+    <div>
+        <h2>Title</h2>
+        <h5>paragraph text</h5>
+        <p style="color:green;">tekst zonder tag</p>
+    </div>
+</p>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 5</h3>
+<h4>Maak een aparte html bestand en voeg de volgende code toe:</h4>
+<img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-1%20CSS/images/image35.png" alt="Bestand">
+<h4>Maak het onderstaande na door gebruik te maken van selectors. De kleuren die hiervoor gebruikt zijn: green en black.</h4>
+<img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-1%20CSS/images/image38.png" alt="Voorbeeld">
+
+<p>
+    <div>
+        <h1>Class selectors</h1>
+        <p id="para2">paragraph tekst</p>
+        <p id="para3">paragraph tekst2</p>
+    </div>
+</p>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 6</h3>
+<h4>Verder heb je ook nog de volgende selectors: universal selector, attribute selectors, child selectors, adjacent sibling selectors en general sibling selectors.
+    Maak een html file waar je alle vijf in gebruikt. 
+
+<ul>
+    <li>Universal selector: selecteert alle elementen. Door * {text-align: center;} in te voeren kan ik de gehele tekst centreren.</li>
+    <li>Attribute selector: </li>
+    <li>Child selector: Door het volgende in te voeren style p:first-child {background-color:yellow;} style worden de eerste p's in opdrachten 3 en 7 geel</li>
+    <li>Adjacent sibling selector: Onderscheid twee selectors en matched het tweede element alleen als het gelijk volgt op eerste element en beide elementen children zijn van dezelfde parent.
+    </li>
+    <li>General sibling selector: onderscheid twee selectors en matched opvolgende elementen die ook children zijn van dezelfde element.</li>
+</ul>
+
+</h4>
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 7</h3>
+<h4>Je kan selectors ook op meerdere manieren combineren. Bijvoorbeeld een selector die alle elementen met type div EN class 'Opdracht' selecteert.
+    Of meerdere selectors die hetzelfde stukje CSS gebruiken.
+    Maak een html file waarin beide voorbeelden worden gebruikt.
+
+    <p>In opdracht 5 is een voorbeeld te zien</p>
+</h4>
+
+<h4 class="Opdracht">Opdracht</h4>
+
+<h3>Opdracht 8</h3>
+<h4>Styling die je toepast wordt toegepast in een bepaalde volgorde. Het kan voorkomen dat je styling toepast en vervolgens niet het gewenste resultaat ziet.
+    Cascade en Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt. Lees meer over Cascade en Inheritance.
+    Zoek ook andere referenties om het concept te begrijpen.
+    Leg in je eigen woorden uit wat met cascade en inheritance wordt bedoeld. Maak voorbeelden om je antwoord uit te leggen.
+</h4>
+<p>CSS is een afkorting voor Cascading Style Sheets. Een letterlijke vertaling voor cascading is trapsgewijze (proces dat in stappen verloopt).
+   Het kan voorkomen dat je iets invoert in CSS en vervolgens een andere uitkomst hebt dan je had verwacht. Dit kan meerdere oorzaken hebben.
+   Zo kan er al een algemene style zijn toegepast op dat element. Of door inheritance heeft een element al een bepaalde value overgenomen.
+   Als er tegenstrijdige invoeren zijn voor een element geldt er een trapsgewijze proces waarbij de ene regel de ander overruled.
+   Zo kan de volgorde een rol spelen waarbij de invoer lager in het document 'wint'(gewenste uitkomst); hoe dichter bij het element hoe hoger de priority. 
+   Ook kan specifity een rol spelen waarbij de invoer die het meest gespecifeerd is 'wint'. Verder zou je bijvoorbeeld !important in je invoer kunnen zetten.
+   Dat zal alles overrulen maar wordt zeer afgeraden.
+</p>
+
+</body>
+</html>
