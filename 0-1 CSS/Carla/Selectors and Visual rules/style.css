@@ -1,0 +1,29 @@
+.div2 {color: green;
+}
+
+#blauw {color:blue
+}
+
+#groen {color:rgb(10, 232, 10)}
+
+* {margin: 0.5em;
+    padding-left: 1cm;
+
+}
+
+div[title=opdracht6] {
+    font-style: italic;
+    
+}
+
+.opdracht6child>p{
+    color: palevioletred;
+}
+
+div + p{
+    background-color: lightcoral;
+}
+
+h2 ~ p{
+    background-color: aqua;
+}
