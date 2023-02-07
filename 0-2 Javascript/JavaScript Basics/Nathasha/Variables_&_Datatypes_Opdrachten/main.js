@@ -73,5 +73,6 @@ str = "Hello ";
 str += "World !";
 console.log(str)
 let x = 10;
-let y = 8;
+let y = 7;
 console.log(x-=y)
+
