@@ -1,0 +1,51 @@
+
+* {
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+
+h1 
+{style=color: blue;}
+
+
+#opdracht4_div {
+    color: green;
+  }
+  
+  #opdracht4_p {
+    color: darkblue;
+  }
+  
+  .groene_paragraaf {
+    color: green;
+  }
+
+/* opdracht 6 */
+
+a[href*="techgrounds"] {
+  background-color: gold;
+ }
+      
+  
+  ol > li { color: red; }
+
+  h1 + p {
+    background-color: orchid}
+
+    #gensib ~ ul {
+      background-color: lightgreen}
+
+/*opdracht 7*/
+      .tekstvak {
+        width: 150px;   
+        border: solid 1px black;
+        padding: 3px;
+        margin: 4px 2px 4px 2px;
+     }
+     
+     .groen { background-color: #99ffcc; }
+     .paars { background-color: #cc99ff; }
+     
