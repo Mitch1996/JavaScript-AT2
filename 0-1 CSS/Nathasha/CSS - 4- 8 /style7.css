@@ -1,0 +1,8 @@
+.opdracht_7,
+#li_7 {
+  font-weight: bold;
+}
+
+.opdracht_7.listitem {
+  color: aqua;
+}
