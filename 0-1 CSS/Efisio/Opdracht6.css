@@ -1,0 +1,40 @@
+h2 , h3{
+    color: black;
+}
+
+h2 + h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/* Selects all elements */
+* {
+    color: green;
+}
+
+f {
+    color: blue;
+}
+
+/* Internal links, beginning with "#" */
+f[href^="#"] {
+    background-color: gold;
+}
+
+/* Links with "example" anywhere in the URL */
+f[href*="example"] {
+    background-color: silver;
+}
+
+div > p {
+    color:white;
+    background: green;
+    padding:2px;
+    text-align: center;
+}
+
+p ~ span {
+    color: orange;
+    text-decoration: underline;
+}
