@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opdrachten techground</title>
+ <link rel="stylesheet" href="style.css"> 
+  
+  </head>
+  <body>
+    <h1>Opdrachten Techgrounds HTML en CSS</h1>    
+    
+
+    <h1>Opdracht 1</h2>
+     Je kunt op 3 verschillende manieren CSS in je HTML inladen. Op welke 3 manieren kun je dat doen? Leg ook voor elke wijze uit wat het precies inhoud.
+<ol>    
+   <li>Inline style: CSS-code in de HTML-tag</li>
+   <li>Interne stylesheet: CSS-code als blok in de head van de pagina</li>
+   <li>stylesheet: CSS als los bestand </li>
+ </ol>
+
+    <h1>Opdracht 2</h1>
+        CSS pas je toe met een bepaalde syntax. Hoe ziet zo'n syntax eruit? Kun je ook uitleggen wat elk element uit de syntax betekent?
+
+    <p>De syntax bestaat uit een selector en een declaratie blok.
+       De selector wijst naar het HTML element dat je wilt stijlen. In het declaratie blok vind de daadwerkelijke stijling plaats.</p>
+
+
+    
+     
+       <h1>Opdracht 3</h1>
+
+     <p>Er zijn verschillende selectors, bijvoorbeeld:      
+<ul>
+     <li>type selectors</li>
+      <li>class selectors</li>
+      <li>ID selectors</li>
+      <li>descendand selectors</li>
+</ul> 
+
+
+  
+    
+  TYPE SELECTOR
+
+  Stijl selector staat in het HTMl element. In onderstaand voorbeeld wordt voor element ‘h1’ de kleur rood gebruikt en lettergrootte 23 pt. 
+  Deze stijl geldt voor ieder ‘h1’-element. 
+  h1 {
+  color: #FF0000;
+  size: 23pt;
+  }
+
+  <div id ="gensib">
+  ID SELECTORS  en CLASS SELECTORS
+  
+  <p>Een ID selector en een Class geven beide de opmaak van een bepaald element in de CSS weer.
+  Bij ID gebruik je een hekje # voor de naam, terwijl dit bij class een punt is. 
+  Het grote verschil is, dat je een Class meerdere keren kunt gebruiken in de pagina en een ID uniek is en
+  dus maar 1 keer gebruikt mag worden in een pagina.</p>
+     
+  <p>Een id gebruik je als het gaat om een unieke naam die gekoppeld is aan hoofdelementen van een website.
+  Bijvoorbeeld div id=” header”, en zo ook voor: de navigatie, de inhoud, de zijkant, de footer en de zoekfunctie. 
+  Deze onderdelen komen maar een keer op een webpagina voor en krijgen daarom een unieke naam</p> </div>
+  
+  <p>Een class gebruik je om individuele onderdelen te koppelen aan CSS. 
+  Je wilt bijvoorbeeld een tekst rood maken en dan geef je deze tekst een class mee. Deze class kan vaker worden gebruikt 
+  in een webpagina. 
+  Je kunt namelijk besluiten om meerdere delen van de tekst rood te maken. 
+  Voorbeeld:
+  .class1{ color: black;} 
+  .class2{ color: red;} </p>
+  
+
+
+  
+  <p>De descendant selector ("afstammeling selector") stelt je in staat om je te beperken tot elementen die afstammeling (descendant)
+  zijn van een ander element. 
+  De syntaxis is erg eenvoudig, je geeft de naam van de parent (ouder), één of meer spaties, en dan de naam van het element 
+  dat je eigenlijke doel is. 
+  Hier volgt een voorbeeld: 
+  
+ 
+  <xmp>
+  p b { 
+    color: Blue;
+  }
+    
+  <p>Hello, <b>world</b> - what a <b>beautiful</b> day!</p>
+
+  </xmp>  </p>
+
+
+
+      
+
+  
+<h1>Opdracht 4</h1>
+  <div id="opdracht4_div">
+    <h2>Title</h2>
+    <p id="opdracht4_p">paragraph tekst</p>
+    tekst zonder tag
+  </div>
+
+  <h1>Opdracht 5</h1>
+  <h2>Class selectors</h2>
+  <p class="groene_paragraaf">paragraph tekst</p>
+  <p>paragraph tekst2</p>
+
+  <h1>Opdracht 6</h1>
+
+  <ul>
+    <li>Universal Selector is op deze pagina gebruikt om de marges link en rechts aan te geven</li>
+    <li><a href="https://techgrounds.nl">Techgrounds</a></li>
+    <li>De OL >LI van opdracht 1</li>
+    <li>Alle p elementen na de h1 zijn orchid van kleur</li>
+    <li>De lichtgroene achtergrond in deze lijst</li>
+    
+  </ul>
+
+  <h1>Opdracht 7</h1>
+  <div class="tekstvak groen">
+    Dit is het groene tekstvak.
+    </div>
+    
+    <div class="tekstvak paars">
+    En dit het paarse tekstvak.
+    </div>
+
+    <h1>Opdracht 8</h1>
+    Cascade bepaalt welke CSS-regel wint indien meerdere regels van toepassing zijn op een element.
+    Cascade voorkomt herhaling in CSS code. 
+    Inheritance bepaalt welke properties worden geërfd door de child elementen van het element
+    waar die properties op worden toegepast (en welke niet).
+    Specificity bepaalt welke selector wint indien meerdere selectors op hetzelfde element van toepassing zijn.
+
+    
+    <h2>voorbeeld</h2>
+    <div class="extra" style="color:green">
+      Dit is <span>een span element</span>. Dat is groen, want dat
+        is geërfd van de parent. Daar is groen ingesteld in de
+        inline-style.</div>
+
+  
+
+
+
+
+
+
+  </body>
+</html>
