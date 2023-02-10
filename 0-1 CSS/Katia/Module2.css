@@ -1,0 +1,36 @@
+
+
+
+.nr2{
+    background-color:lightgreen;
+    border-color: black;
+    
+}
+
+span{
+    background-color: white;
+    border-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.bordercontent{
+    border: 5px black;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.buitenbox{
+    border-color: black;
+    margin: 100px;
+    border-width: 250 px;
+}
+
+.voorbeeld{
+    block-size: 100px;
+    border-block-color: black;
+    border-width: 100px;
+    height: 100px;
+}
