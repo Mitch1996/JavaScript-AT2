@@ -30,7 +30,7 @@ d {
 }
 
 span {
-    display: inline-block;
+    display: inline;
     background: white;
     width: 20px;
     heigth: 10px
