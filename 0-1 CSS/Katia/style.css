@@ -1,4 +1,25 @@
-h1{
-color:green;
-background-color:blue;
+  
+  Opdracht 4
+  h1#color{
+        color: green;
+    }
+    
+   p#other{
+        color:darkblue
+    }
+    #last{
+        color: green;
+    }
+Opdracht 5
+.groen{
+    color:green
 }
+Opdracht 6
+[href] {
+    color:pink
+}
+Opdracht 7
+.opdracht{
+    color: pink;
+}
+
