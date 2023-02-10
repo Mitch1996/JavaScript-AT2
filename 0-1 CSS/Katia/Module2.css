@@ -3,7 +3,8 @@
 
 .nr2{
     background-color:lightgreen;
-    border-color: black;
+    border-color:solid black;
+    border:10px;
     
 }
 
@@ -12,10 +13,11 @@ span{
     border-color: black;
     width: 10px;
     height: 10px;
+    border: 50px;
 }
 
 .bordercontent{
-    border: 5px black;
+    border: 5px solid black;
     width: 250px;
     height: 100px;
     margin: 10px;
@@ -23,14 +25,16 @@ span{
 }
 
 .buitenbox{
-    border-color: black;
-    margin: 100px;
+   
+    margin: 250px;
     border-width: 250 px;
+    border: 5px solid grey
 }
 
 .voorbeeld{
-    block-size: 100px;
+  
     border-block-color: black;
     border-width: 100px;
     height: 100px;
+    border: solid green
 }
