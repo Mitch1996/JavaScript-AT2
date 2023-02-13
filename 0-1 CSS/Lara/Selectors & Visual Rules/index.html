@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors & Visual Rules</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Opdracht 1</h1>
+
+    <p>De 3 manieren om CSS in HTML code in te laden zijn:</p>
+
+        <li>Extern Stylesheet: Maak een extern stylesheet en koppel deze aan je HTML document. Je kunt in een apart bestand de stijldefinities vermelden en dit opslaan met de extensie *.css. De naam van het document is dan ingevuld bij het attribuut href Het mooie van deze methode is dat met het aanpassen van een enkele stylesheet alle verbonden pagina's worden vormgegeven. Hierdoor
+            zijn aanpassingen snel uit te voeren en heb je een consequente vormgeving</li>
+    <li>Intern Stylesheet: Koppeling in het document zelf. Een andere manier van koppelen is het het opnemen van de stijldefinities tussen de headtags in het document zelf. Hierbij worden de stijldefinities in het document zelf opgenomen, wat natuurlijk handig is als je de definities alleen maar wilt laten gelden voor de pagina zelf. </li>
+<li>Inline: Stijldeclaratie in een enkele HTML tag inbouwen. Je kunt zelfs in een enkele HTML-tag de stijl met CSS bepalen.Dit gebruik je als je incidenteel CSS wilt toepassen. Omdat je in de tag zelf de stijl definieert, zijn de vormgeving en de inhoud niet gescheiden. Wijzigingen van de vormgeving worden zo onoverzichtelijk en moeizaam. De kans op inconsequentie in de vormgeving neemt toe.</li>
+
+<h1>Opdracht 2</h1>
+
+<p> Een CSS regel bestaat uit een selector en een declaratie blok (Declaration block). De selector verwijst naar het HTML element. In het declaratieblok dat staat tussen de accolades {}, wordt het HTML element daadwerkelijk gestijld. Dit kan door CSS eigenschappen te gebruiken en die een waarde te geven. De scheiding tussen het CSS eigenschap en de waarde vindt plaats door een dubbele punt (:). In het declaratieblok kunnen meerdere declaraties zijn. Een declaratie is een CSS eigenschap met een waarde en tot slot een puntkomma (;). De puntkomma is nodig om de scheiding te maken met andere declaraties binnen het declaratieblok.</li>
+
+  <h1>Opdracht 3</h1>
+
+<p>Hieronder een overzicht met verschillende selectors:</p>
+
+    <li class="voorbeeld">Voorbeeld type selectors: De h1 elementen van deze pagina zijn allemaal zwart. <span> Voordelen: Je kan dezelfde elementen allemaal tegelijk selecteren </span></li>
+
+    <li class="voorbeeld">Voorbeeld class selectors: De voorbeeld list items binnen deze opdracht zijn paars. <span>Voordelen: Je kan een style toevoegen die voor verschillende elementen hetzelfde moeten zijn maar niet voor alle typen. Je kan ze ook delen over verschillende soorten typen elementen.</span></li>
+    
+    <li class="voorbeeld">Voorbeeld id selectors: De voordelen list van dit type selector zijn rood. <span>Voordelen: Je kan specifieke stijlen toewijzen.</span></li>
+    
+    <li class="voorbeeld">Voorbeeld descendant selectors: De p elementen die volgen na een h1 element op deze pagina zijn blauw. <span>Je kan gericht in een specfieke structuur stylen toewijzen.</span></li>
+
+  <h1>Opdracht 4</h1>
+
+  <div id="opdracht_4_div">
+    <h2>Title</h2>
+    <p id="opdracht_4_p">paragraph tekst</p>
+    tekst zonder tag
+  </div>
+
+    <h1>Opdracht 5</h1>
+
+    <h2>Class selectors</h2>
+    <p class="green_paragraph">paragraph tekst</p>
+    <p class="black_paragraph">paragraph tekst2</p>
+
+    <h1>Opdracht 6</h1>
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <style>
+  </style>
+  <body>
+   <div id="opdracht_6">
+    <h1>Welkom op mijn pagina</h1>
+    <p id="_highlightme">Dit is de eerste HTML-pagina die ik ooit gemaakt hebt!
+      Ik ga hierin de volgende selectors gebruiken:
+    </p>
+  
+<ol id="only-child">
+   <li>Universal selector, in CSS staat de asteriks * voor dit type selector, alle tekst vanaf opdracht 6 is Italic</li>
+   <li>Attribute selector word gebruikt om elementen met een specifiek attribute te selecteren, ik maak de achtergrond van de blauwe tekst geel.  </li>
+   <li>Child selector selecteerd alle elementen die kinderen zijn van een specifiek element, dit rijtje is roze</li>
+   <li>Adjacent sibling selector is een combinator die twee selectors combineert. Het p element in het blauw na het h1 element op dit stukje tekst.</li>
+   <li>General sibling selector selecteert alle elementen die de volgende broers en zussen zijn van een bepaald element.</li> 
+</ol>
+  </div>
+</body>
+</html>
+
+    <h1>Opdracht 7</h1>
+    <ul>
+      <li class="listitem opdracht_7">Voorbeeld meerdere eigenschappen AND selectors: Dit list item</li>
+      <li id="li_7">Voorbeeld meerdere groepen: De list items van deze opdracht.</li>
+    </ul>
+    <h1>Opdracht 8</h1>
+    <p id="cascade">Deze p hoort door de descendant selector blauw te zijn. Doordat bepaalde selectoren voorrang hebben op andere is deze nu niet blauw maar cyaan.</p>
+  </body>
+</html>
+
+
+    
+</body>
+</html>
