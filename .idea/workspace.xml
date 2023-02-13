@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8e4bb3-eafb-4317-9a0e-d44a3d4ada9d" name="Changes" comment="" />
+    <list default="true" id="9b8e4bb3-eafb-4317-9a0e-d44a3d4ada9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/0-1 CSS/Efisio/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/0-1 CSS/Efisio/.idea/.name" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,19 +23,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Efisio/OneDrive/JavaScripts-AT2/JavaScript-AT2/0-1 CSS/Efisio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Efisio/OneDrive/JavaScripts-AT2/JavaScript-AT2/0-1 CSS/Efisio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Efisio\OneDrive\JavaScripts-AT2\JavaScript-AT2\0-1 CSS\Efisio" />
@@ -50,6 +54,9 @@
       <workItem from="1675257869299" duration="2943000" />
       <workItem from="1675758858261" duration="5423000" />
       <workItem from="1675764411191" duration="144000" />
+      <workItem from="1676062903572" duration="12000" />
+      <workItem from="1676063852412" duration="9000" />
+      <workItem from="1676074855307" duration="140000" />
     </task>
     <servers />
   </component>
