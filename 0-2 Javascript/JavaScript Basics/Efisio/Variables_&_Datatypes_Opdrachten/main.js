@@ -86,3 +86,8 @@ console.log(b += ' world'); // Concatenation    kan ook zo console.log(b + ' wor
 //console.log(b /= ' world'); NaN
 //console.log(b %= ' world'); NaN
 //console.log(b **= ' world'); NaN
+
+//Uitleg NaN
+
+//In JavaScript, NaN is short for "Not-a-Number".
+// In JavaScript, NaN is a number that is not a legal number.
