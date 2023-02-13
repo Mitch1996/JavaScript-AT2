@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Opdracht8.css">
+  <title>CSS Opdracht 8</title>
+</head>
+<body>
+<h2>Inheritance uitleg</h2>
+<div class="kleur">
+  <p>Inheritance is hoe eigenschappen naar beneden druppelen van een element naar de children.</p>
+  <p>Bepaalde eigenschappen, zoals font-family erven (inherit) op natuurlijke wijze.</p>
+  <p>Als je een font-family voor de body toewijst dan worden deze allemaal geërfd door de alle onderliggende elementen in de body.</p>
+  <p>Zie onderstaande voorbeeld van inheritance</p>
+</div>
+
+<div id="div1">
+  Parent
+  <div id="child1">
+    <p> Alles in dezelfde div krijgt dezelfde kleur, in dit geval groen, word inherited </p>
+    Child 1
+    <div id="childchild1">
+      <p>in dit geval rood </p>
+      Child Child 1
+      <div id="childchildchild1">
+        <p>in dit geval ook rood , inherited van childchild1</p>
+        Child Child Child
+      </div>
+    </div>
+    <div id="childchild2">
+      <p>in dit geval groen, inherited van child1 </p>
+      Child Child 2
+    </div>
+  </div>
+  <div id="child2">
+    <p>in dit geval zwart, inherited van parent </p>
+    Child 2
+  </div>
+</div>
+
+<h2>Cascade uitleg</h2>
+<div class="kleur">
+  <p>Cascade is wat voorrang heeft bij het gebruik van meerdere styles mocht er een conflict zijn.</p>
+  <p>De regels van cascade zijn :</p>
+  <lu>
+    <li>Later properties override earlier properties</li>
+    <li>More specific selectors override less specific selectors</li>
+    <li>Specified properties override inherited properties</li>
+  </lu>
+</div>
+
+</body>
+</html>
