@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Variables & Datatypes</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+
+    <h1>Opdracht 1.4</h1>
+
+    <h3>We gaan operators wat nader onderzoeken, en ermee experimenteren.</h3>
+
+    <h4>1. Wat komt er uit het volgende?</h4>
+
+    <img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-2%20Javascript/images/image13.png" alt="1.4.1">
+
+    <p>2</p>
+    <p>2</p>
+
+    <h4>2. Wat komt er uit als je de console.log() hierboven omdraait?</h4>
+    <p>1</p>
+    <p>3</p>
+
+    <h4>3. Wat komt er uit het volgende?</h4>
+
+    <img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-2%20Javascript/images/image5.png" alt="1.4.3">
+
+    <p>4</p>
+    <p>2.4</p>
+    
+    <h4>4. Wat komt er uit het volgende? (spaties toegevoegd voor helderheid)</h4>
+
+    <img src="https://raw.githubusercontent.com/Mitch1996/JavaScript-AT2/main/0-2%20Javascript/images/image6.png" alt="1.4.4">
+
+    <p>false</p>
+
+    <h4>5. Wat komt er uit bovenstaand als je de waarde van someNumber verandert in: 5, Boolean, false, “false”, true, “true”, null, undefined</h4>
+
+        <ul>
+            <li>5: false</li>
+            <li>Boolean: false</li>
+            <li>false: true</li>
+            <li>"false": Uncaught SyntaxError: Invalid or unexpected token</li>
+            <li>true: false</li>
+            <li>"true": Uncaught SyntaxError: Invalid or unexpected token</li>
+            <li>null: true</li>
+            <li>undefined: true</li>
+          </ul>
+
+    <h4>6. Zoek op of experimenteer wat "+=" doet. Werkt deze ook met Strings? Weet je hoe je deze anders kan schrijven?</h4>
+
+    <p>+= is een Addition Assignment Operator. De waarde aan de rechterkant wordt opgeteld bij de waarde aan de linkerkant. Deze operator werkt ook met Strings.</p>
+    <P>Een voorbeeld met Number: let x = 25; x += 10; console.log(x) De uitkomst hiervan is 35.</P>
+    <p>Een voorbeeld met Strings: let text = "Hoi"; text += " allemaal"; console.log(text)</p>
+
+    <h4>7. Doe hetzelfde voor "-=", "*=", "/=", "%=" en "**=".</h4>
+
+    <p>-= is een Subtraction Assignment Operator. Deze trekt de waarde af van de variable.</p>
+    <p>Een voorbeeld:let x = 20; x -= 4; console.log(x). De uitkomst hiervan is 16.</p>
+
+    <br> 
+
+    <p>*= is een Multiplication Assignment Operator. Deze vermenigvuldigd de variable.</p>
+    <p>Een voorbeeld: let x = 5; x *= 5; console.log(x). De uitkomst hiervan is 25.</p>
+
+    <br>
+
+    <p>/= is een Division Assignment Operator. Deze deelt de variable.</p>
+    <p>Een voorbeeld: let x = 100; x /= 2; console.log(x). De uitkomst hiervan is 50</p>
+
+    <br>
+
+    <p>%= is een Remainder Assignment Operator. Deze kent een restant toe aan de variable.</p>
+    <p>Een voorbeeld: let x = 10; x %= 2; console.log(x). De uitkomst hiervan is 0.
+       Een tweede voorbeeld: let x = 9; x %= 2; console.log(x). De uitkomst hiervan is 1.</p>
+
+    <br>
+
+    <p>**= is een Exponentiation Assignment Operator. Deze verheft de variable tot de macht van de waarde.</p>
+    <p>Een voorbeeld:let x = 10; x **= 3; console.log(x). De uitkomst hiervan is 1000.</p>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+h2 {
+    color: red;
+}
+
+.kleur {
+    color: black
+}
+
+.div  {
+    color: black
+}
+
+.div p {
+    color: black
+}
+
+#parentclass {
+    color: black;
+}
+
+#child1 {
+    color: green;
+}
+
+#childchild1 {
+    color: red;
+}

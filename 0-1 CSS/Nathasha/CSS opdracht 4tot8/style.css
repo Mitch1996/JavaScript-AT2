@@ -1,0 +1,9 @@
+h2#color{
+color: darkgreen; 
+}
+p#other{
+color: blueviolet;
+}
+#last{
+    color: darkgreen;
+}

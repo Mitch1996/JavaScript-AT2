@@ -1,0 +1,57 @@
+h1 {
+  color: red;
+}
+
+h1 + p {
+  color: blue;
+}
+
+.voorbeeld {
+  color: purple;
+}
+
+#voordeel_id {
+  color: green;
+}
+
+#opdracht_4_div {
+  color: green;
+}
+
+#opdracht_4_p {
+  color: darkblue;
+}
+
+.green_paragraph {
+  color: green;
+}
+
+* {
+  position: relative;
+  left: 100px;
+}
+
+li[value="1"] {
+  color: pink;
+}
+
+.opdracht_6 > li {
+  font-style: italic;
+}
+
+p ~ h1 {
+  font-style: normal;
+}
+
+.opdracht_7,
+#li_7 {
+  font-weight: bold;
+}
+
+.opdracht_7.listitem {
+  color: aqua;
+}
+
+#cascade {
+  color: cyan;
+}
