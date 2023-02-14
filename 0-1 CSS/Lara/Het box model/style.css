@@ -1,0 +1,13 @@
+p.opdracht_2 {
+    border: 1px solid black;
+    background-color: green;
+  }
+  
+  span.opdracht_2 {
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  div.opdracht_2 {
+    background-color: lightgreen;
+  }
