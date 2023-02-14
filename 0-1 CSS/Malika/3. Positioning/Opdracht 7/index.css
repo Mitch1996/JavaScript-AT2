@@ -1,0 +1,18 @@
+body {background-color:aliceblue}
+
+h1 {background-color: lightblue;}
+
+.plaatje {position: relative}
+
+.tekst {position: absolute;
+        top: 20px;
+        left: 310px;
+        font-size: 45px;}
+
+.tekst2 {position: absolute;
+    top: 70px;
+    left: 335px;
+    font-size: 25px;
+    color: yellow;}
+
+span {color:white;}
