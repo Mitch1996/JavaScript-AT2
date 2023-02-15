@@ -1,0 +1,29 @@
+body {background-color:aliceblue}
+
+h1 {background-color: lightblue;}
+
+.broodje {position: relative}
+
+.tekst {position: absolute;
+        background-color: yellow;
+        top: 350px;
+        width: 600px;
+        height: 60px;
+        font-size: 45px;
+        padding-left: 50px;}
+
+.leeg {position: absolute;
+    background-color: yellow;
+    top: 350px;
+    left: 743px;
+    width: 60px;
+    height: 60px;}
+
+.tekst2 {position: absolute;
+    background-color: grey;
+    top: 425px;
+    left: 40px;
+    width: 300px;
+    font-size: 25px;
+    padding-left: 20px;
+    color: yellow;}

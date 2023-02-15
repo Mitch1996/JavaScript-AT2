@@ -1,0 +1,23 @@
+h2 {
+    display: block;
+    color:red;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+div p {
+    color:darkblue;
+}
+
+div h3 {
+    color:green;
+}
+
+div  {
+    color:green;
+}

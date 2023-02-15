@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Deepdive</title>
+</head>
+<body>
+<h1>Selector & Visual Rules</h1>
+
+<p><span class="small">Opdracht 1</span></p>
+<h2>Je kunt op 3 verschillende manieren CSS in je HTML inladen</h2>
+
+<ul>
+  <li>External CSS</li>
+  <li>Internal CSS</li>
+  <li>Inline CSS</li>
+</ul>
+
+<p><span class="small">Opdracht 2</span></p>
+<h2>CSS pas je toe met een bepaalde syntax. Hoe ziet zo'n syntax eruit? Kun je ook uitleggen wat elk element uit de syntax betekent?</h2>
+<img border="0" src="css%20syntax.png " alt="name" width="600" height="300" />
+
+<ul>
+    <li>Selector          : Selector geeft aan welk HTML element je wilt bewerken, kan elke tag zijn zoals h1, div etc.</li>
+    <li>Declaration block : Declaratie block heeft een of meer declaraties die worden gescheiden door een puntkomma. Declaratie heeft eigenschapnaam en bijbehorende waarde.</li>
+    <li>Property          : is een attribuut van een HTML element, kan color, border zijn.</li>
+    <li>Value             : Waarde die toegewezen is aan de property, waarde kan bijvoorbeeld "yellow" hebben als toegewezen property.</li>
+</ul>
+
+<p><span class="small">Opdracht 3</span></p>
+<h2>Er zijn verschillende selectors, geef voorbeelden. Geef in je antwoord ook aan wat de voordelen zijn van elke selector.</h2>
+
+<p>Voorbeeld CSS Type selector :</p>
+<p style="color: blue">Voordeel Type selector is dat je niet steeds de attributen en bijbehorende values hoeft op te geven voor een bepaald Type, declareer je eenmaal</p>
+
+<textarea style="border: none;background-color:whitesmoke;" rows="17" cols="80" autofocus>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    p{
+        text-align: center;
+        color: blue;
+    }
+    </style>
+    </head>
+    <body>
+    <p>This style will be applied on every paragraph.</p>
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
+    </body>
+    </html>
+</textarea>
+
+<p>Voorbeeld CSS Class selector :</p>
+<p style="color: blue">Voordeel Class selector is dat je niet steeds de attributen en bijbehorende values hoeft op te geven voor een bepaalde Class, declareer je eenmaal</p>
+<p style="color: blue">Nog een voordeel is dat je zelf een Classe kunt maken met toepasselijke naam</p>
+<textarea style="border: none;background-color:whitesmoke;" rows="16" cols="80" autofocus>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    .center {
+        text-align: center;
+        color: blue;
+    }
+    </style>
+    </head>
+    <body>
+    <h1 class="center">This heading is blue and center-aligned.</h1>
+    <p class="center">This paragraph is blue and center-aligned.</p>
+    </body>
+    </html>
+</textarea>
+
+<p>Voorbeeld CSS ID selector :</p>
+<p style="color: blue">Voordeel ID selector is dat je niet steeds de attributen en bijbehorende values hoeft op te geven voor een bepaalde ID, declareer je eenmaal</p>
+<p style="color: blue">Nog een voordeel is dat je zelf een custom ID kunt maken met toepasselijke naam en attributen</p>
+<textarea style="border: none;background-color:whitesmoke;" rows="16" cols="80" autofocus>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    #para1 {
+        text-align: center;
+        color: blue;
+    }
+    </style>
+    </head>
+    <body>
+    <p id="para1">Hello Javatpoint.com</p>
+    <p>This paragraph will not be affected.</p>
+    </body>
+    </html>
+</textarea>
+
+<p>Voorbeeld CSS Descendant selector :</p>
+<p style="color: blue">Voordeel Descendant selector is dat bepaalde elementen matched van een bepaald bovenliggend element en hier attributen en values mee kunt geven.</p>
+<textarea style="border: none;background-color:whitesmoke;" rows="26" cols="80" autofocus>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    div p {
+      background-color: lightblue;
+      font-weight: bold;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div>
+      <p> This is 1st paragraph in the div. </p>
+      <p> This is 2nd paragraph in the div. </p>
+      <div>
+    This is second div in the first div
+      <p> This is the paragraph in second div. It will also be affected. </p>
+    </div>
+    </div>
+
+    <p> Paragraph 4. It will not be affected because it is not in the div. </p>
+
+    </body>
+    </html>
+    </textarea>
+
+<p><span class="small">Opdracht 4</span></p>
+    <div>
+        <h3>Title</h3>
+        <p>paragraph tekst</p>
+        tekst zonder tag
+    </div>
+
+
+</body>
+</html>

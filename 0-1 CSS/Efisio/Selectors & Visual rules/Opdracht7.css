@@ -1,0 +1,23 @@
+h2 {
+    color: red;
+}
+
+.opdracht {
+    color: green;
+}
+
+.opdracht h2 {
+    color: blue;
+}
+
+p.opdracht {
+    color: purple;
+    font-size:300%; font-weight:bold;
+}
+
+h3.opdracht {
+    color:white;
+    background: green;
+    padding:2px;
+    text-align: center;
+}
