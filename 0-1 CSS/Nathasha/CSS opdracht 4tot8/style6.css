@@ -1,0 +1,27 @@
+* [lang^="en"] {
+    color: green;
+  }
+*.warning {
+    color: greenyellow;
+  }
+
+
+  a[href^="#"] {
+    background-color: gold;
+  }
+  
+  span {
+    background-color: aqua;
+  }
+
+  div > span {
+    background-color: yellow;
+  }
+
+  li:first-of-type +li+li+li{
+    color: red;
+  }
+ 
+  p ~ span {
+    color: red;
+  }
