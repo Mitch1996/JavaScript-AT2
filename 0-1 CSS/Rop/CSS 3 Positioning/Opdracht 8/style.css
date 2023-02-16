@@ -1,0 +1,26 @@
+.plaatje {position: relative}
+
+.tekst {position: absolute;
+        background-color: yellow;
+        top: 50px;
+        width: 500px;
+        height: 60px;
+        font-size: 45px;
+        padding-left: 50px;}
+
+.achter {position: fixed;
+    background-color: yellow;
+    top: 50px;
+    left: 743px;
+    width: 10000px;
+    height: 60px;}
+   
+
+.tekst2 {position: absolute;
+    background-color: white;
+    top: 150px;
+    left: 40px;
+    width: 300px;
+    font-size: 25px;
+    padding-left: 20px;
+    color: black;}
