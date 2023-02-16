@@ -1,0 +1,104 @@
+.marge{
+    margin-left:100px;
+    margin-right:250px;
+}
+
+#rgbrood {
+    color: rgb(221, 44, 44);
+
+    position: fixed;
+    top: 50;
+    right: 50;
+    width: 200px;
+} 
+
+
+#relative {
+
+    color: rgb(221, 44, 44);
+
+    position: relative;
+    top: 30px;
+    right: 20px;
+
+}
+#absolute {
+
+    color: rgb(235, 152, 152);
+    position: absolute;
+    top: 100px;
+    left: 50;""
+    width: 200px;
+}
+
+/*Opdracht 5*/ 
+    
+.plaatje
+{background-image: url(zee.jpg);
+    max-width: max-content;
+}
+
+
+
+    /*opdracht 6*/
+.buiten {background-color: orange;
+    width: 100px;
+    height: 100px;}
+
+.binnen {position: relative;
+    background-color: lightgreen;
+        width: 50px;
+        height: 50px;
+        left: 25px;
+        top: 25px;}
+
+
+/*opdracht 7*/
+
+
+ .foto {position: relative}
+
+.tekst {position: absolute;
+        top: 20px;
+        left: 250px;
+        font-size: 40px;}
+
+.tekst2 {position: absolute;
+    top: 70px;
+    left: 275px;
+    font-size: 20px;
+    color: yellow;}
+
+span {color:white;}
+
+
+/*opdracht*/
+
+
+.bergplaatje {position: relative}
+
+.brr {position: absolute;
+        background-color: yellow;
+        top: 100px;
+        width: 50px;
+        height: 60px;
+        font-size: 45px;
+        padding-left: 50px;}
+
+.niks {position: absolute;
+    background-color: yellow;
+    top: 350px;
+    left: 743px;
+    width: 500px;
+    height: 60px;}
+
+.koud {position: absoluut;}
+    background-color: grey;
+    top: 425px;
+    left: 40px;
+    width: 300px;
+    font-size: 25px;
+    padding-left: 20px;
+    color: yellow;}
+
+
