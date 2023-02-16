@@ -4,7 +4,7 @@ console.log(constOefening)
 ConstOefening="Const Tekst Twee"
 console.log(constOefening)
 
-//1.1Ik zie bij de ene het wel in de console verschijnen en ij de andere niet
+//1.1Ik zie bij de ene het wel in de console verschijnen en bij de andere niet
 
 
 let typeQuestion = 'function calculateSomething() {}'

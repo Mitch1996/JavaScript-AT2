@@ -11,9 +11,7 @@
 span{
     background-color: white;
     border-color: black;
-    width: 10px;
-    height: 10px;
-    border: 50px;
+        border: 50px;
 }
 
 .bordercontent{
@@ -36,5 +34,6 @@ span{
     border-block-color: black;
     border-width: 100px;
     height: 100px;
+    margin: 5px;
     border: solid green
 }
