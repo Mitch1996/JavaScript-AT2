@@ -1,0 +1,8 @@
+body {background-color:antiquewhite}
+
+h1 {background-color:azure}
+
+h2 {background-color: rgb(255,0,0);
+    position:fixed; 
+    top: 50px;
+    right: 50px}
