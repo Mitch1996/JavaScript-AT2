@@ -1,0 +1,85 @@
+.box1 {
+    background-color: green;
+    border-bottom: 30px solid lightgreen;
+    margin: 0px;
+}
+
+.box2 {
+    background-color: green;
+    border: 0px;
+    margin: 0px;
+}
+
+#box3 {
+    background-color: rgb(202, 49, 74);
+    padding: 33px;
+    border-color: rgb(76, 12, 180);  
+    border: solid;
+    border-width: 25px; 
+
+}
+
+#box4 {
+    background-color: rgb(54, 87, 64);
+    padding: 50px;
+    border-color: rgb(16, 19, 19);
+    border: solid;
+    border-width: 50px; 
+    
+}
+
+#box5 {
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    border-color: rgb(16, 19, 19);
+    border: solid;
+    border-width: 10px; 
+    margin: 50px;
+
+
+
+}
+
+#box6 {
+    background-color: rgb(71, 150, 214);
+    border-color: rgb(16, 19, 19);
+    border: solid;
+    border-width: 10px; 
+margin: 25px;
+
+}
+
+#box7 {
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px; 
+    margin: 5px;
+    padding: 5px; 
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#box8 {
+    background-color: lightseagreen;
+    width: 400px;
+    height: 400px; 
+    margin: 40px;
+    padding: 50px; 
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#box9 {
+    background-color: lightseagreen;
+    width: 400px;
+    height: 400px; 
+    margin: 40px;
+    padding: 50px; 
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    box-sizing: border-box;
+}

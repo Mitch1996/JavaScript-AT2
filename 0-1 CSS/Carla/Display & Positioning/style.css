@@ -1,0 +1,12 @@
+.h1{position: absolute;
+    top:50px;
+    right: 50px;
+    background-color:rgb(201, 11, 11);
+}
+
+.h1{
+    position: static;
+    left: 20px;
+    bottom: 30px;
+
+}
