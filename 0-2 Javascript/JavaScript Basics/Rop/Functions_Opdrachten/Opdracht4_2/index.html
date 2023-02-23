@@ -7,5 +7,61 @@
     <script src="main.js" defer></script>
     <title>Javascript</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Opdracht 4.2</h1>
+    
+    <h2>Eerste H2 heading</h2>
+      <ul id="menu">
+          <li class="item">HTML</li>
+          <li class="item">CSS</li>
+          <li class="item highlight">JavaScript</li>
+          <li class="item">TypeScript</li>
+      </ul>
+
+      <h2>Tweede H2 heading</h2>
+      <div class="boodschappenlijst">
+      <ol class="groceries-list">
+        <li class="list-item">Melk</li>
+        <li class="list-item">Aardappels</li>
+        <li class="list-item">Appels</li>
+        <li class="list-item">Gehakt</li>
+        <li class="list-item">Cola</li>
+    </ol>
+  </div>
+
+  <h2>The innerHTML Property</h2>
+
+<p id="myP">I am a paragraph.</p>
+
+<p>The content of "myP" is:</p>
+<p id="demo"></p>
+
+<script>
+let html = document.getElementById("myP").innerHTML;
+document.getElementById("demo").innerHTML = html;
+</script>
+
+<h2>The innerText Property</h2>
+
+<button id="myBtn">Try it</button>
+
+<p>The text content of the button element is:</p>
+<p id="demo"></p>
+<p>The innerText property is not supported in Internet Explorer 9 and earlier.</p>
+
+<script>
+let text = document.getElementById("myBtn").innerText;
+document.getElementById("demo").innerHTML = text;  
+</script>
+
+  
+  
+  
+
+    
+    
+
+
+
+  </body>
 </html>
