@@ -1,0 +1,26 @@
+body {background-color:aliceblue}
+
+h1 {background-color: lightblue;}
+
+#vierkant {
+    background: red;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    position: relative;
+  }
+  
+#vierkant::before,
+ #vierkant::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+#vierkant::before {
+    transform: rotate(30deg);
+  }
+#vierkant::after {
+    transform: rotate(60deg);
+  }
