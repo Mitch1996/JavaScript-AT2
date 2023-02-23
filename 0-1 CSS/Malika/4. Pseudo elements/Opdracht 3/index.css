@@ -1,0 +1,22 @@
+body {background-color:aliceblue}
+
+h1 {background-color: lightblue;}
+
+#before {
+        outline: 1px solid black;
+        width:300px;
+        height:300px;
+        position: relative;
+        background-image: url(foto.jpg);
+}
+
+#before::before{
+        display: block;
+        position:absolute;
+        content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium nisi dolore alias vero eius accusamus delectus unde architecto doloremque corrupti, ducimus illo dolor laborum doloribus quos ipsum. Rem, reprehenderit voluptas!";
+        width:150px;
+        height:150px;
+        left: 75px;
+        bottom: 100px;
+
+}

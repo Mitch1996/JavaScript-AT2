@@ -1,0 +1,42 @@
+body {background-color:aliceblue}
+
+h1 {background-color: lightblue;}
+
+h2 {font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color:cadetblue;
+    width:820px;
+    height: 75px;
+    position: relative;}
+
+h2::before {content:'';
+            position:absolute;
+            background-color: red;
+            width:8%;
+            height: 10px;
+            top:0;
+            left:0;}
+                        
+h2::after {content:'';
+           position:absolute;
+           background-color: red;
+           width:8%;
+           height: 10px;
+           bottom:0;
+           right:0}
+
+h2 {border-inline: 10px solid red}
+
+
+ 
+
+
+
+
+
+
+
+
+     
+
