@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Opdracht1.css">
+  <title>CSS Deepdive</title>
+</head>
+<ol>
+  <li>::first-line</li>
+  <li>::first-letter</li>
+  <li>::before</li>
+  <li> ::after</li>
+  <li>::marker</li>
+  <li>::selection</li>
+  <li>::placeholder</li>
+  <li>::file-selector-button</li>
+  <li>::cue</li>
+  <li><span style="color:Green">::part</li>
+  <li><span style="color:Green">::slotted</li>
+  <li><span style="color:Green">::-moz-appearance</li>
+  <li><span style="color:Green">::-webkit-appearance</li>
+  <li><span style="color:Green">::-webkit-search-cancel-button</li>
+  </ol>
+<br>
+<h2>1.</h2>
+<p id="p1">You can use the ::first-line pseudo-element to add a special effect to the first line of a text.<br>
+  Some more text. And even more, and more, and more, and more, and more, and more.</p>
+<h2>2.</h2>
+<p id="p2">You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p>
+
+<p id="p3">You can combine the ::first-letter and ::first-line pseudo-elements to <br>add a special effect to the first letter and the first line of a text!</p>
+<h2>3.</h2>
+<h1 id="s1">This is a heading</h1>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h1 id="s1">This is a heading</h1>
+<h2>4.</h2>
+<h1 id="s2">This is a heading</h1>
+<p>The ::after pseudo-element inserts content after the content of an element.</p>
+
+<h1 id="s2">This is a heading</h1>
+<h2>5.</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+<h2>6.</h2>
+<h1>Select some text on this page:</h1>
+
+<p>This is a paragraph.</p>
+<div>This is some text in a div element.</div>
+<h2>7.</h2>
+
+<p>You can add a helper hint to form elements, such as input with a placeholder attribute. The ::placeholder pseudo-element allows you to style that text.</p>
+
+<label for="email">Email address</label>
+<input type="email" placeholder="E.G name@example.com" id="email" />
+
+<br>
+<h2>8.</h2>
+<input type="file">
+<br>
+<h2>9.</h2>
+<p>The ::cue CSS pseudo-element selects the WebVTT cues within a media element, usually videos. In simpler words, it allows you to style captions, subtitles, and other possible media cues using VTT tracks:</p>
+<p>See example :</p>
+<img src="cue-pseudo-element.avif" alt="Cue example">
+<br>
+<video controls
+       src="sample-mp4-file.mp4">
+  <track default
+         kind="captions"
+         srclang="en"
+         src="sample-mp4-file.mp4">
+</video>
+
+
+
+</html>

@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8e4bb3-eafb-4317-9a0e-d44a3d4ada9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/.idea/Opdracht4_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/vraag6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_3/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_4/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/0-2 Javascript/JavaScript Basics/Efisio/Functions_Opdrachten/Opdracht4_4/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +58,8 @@
       <workItem from="1676063852412" duration="9000" />
       <workItem from="1676074855307" duration="140000" />
       <workItem from="1677152694285" duration="101000" />
+      <workItem from="1677164689354" duration="263000" />
+      <workItem from="1677266518067" duration="9000" />
     </task>
     <servers />
   </component>

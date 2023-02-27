@@ -1,0 +1,73 @@
+#p1::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+#p2::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+#p3::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+#p3::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+}
+
+#s1::before {
+    content: url(mini-graphics-smileys-before.gif);
+}
+
+#s2::after {
+    content: url(mini-graphics-smileys-after.gif);
+}
+
+::marker {
+    color: red;
+    font-size: 23px;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+input::placeholder {
+    color: darkcyan;
+    background-color: gainsboro;
+}
+/* Presentational styles */
+input {
+    padding: 0.5em 1em;
+    border: 1px solid var(--color-stroke);
+}
+
+input[type="file"] {
+    margin: auto;
+    padding: 1.5em;
+    border: 2px dashed #bbb;
+    background-color: #fff;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 1em 1.5em;
+    border-width: 0;
+    border-radius: 2em;
+    background-color: hsl(210 70% 30%);
+    color: hsl(210 40% 80%);
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+    margin-right: 1em;
+&:hover {
+     background-color: hsl(210 70% 20%);
+ }
+}
+
+video::cue {
+    color: pink;
+    background-color: black;
+}
