@@ -1,0 +1,8 @@
+body {background-color:azure}
+
+h1 {background-color:rosybrown}
+
+h2 {background-color: rgb(255,0,0);
+    position:relative; 
+    left: 20px;
+    bottom: 30px}

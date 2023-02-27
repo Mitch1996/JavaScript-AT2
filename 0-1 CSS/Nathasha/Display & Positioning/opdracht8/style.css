@@ -1,0 +1,36 @@
+body {
+  background-image: url(https://images.english.elpais.com/resizer/trkDoEjc2OGDkR74aaQC16zHXsg=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/75XOEG543RBE7HDYACRSULXF6A.jpeg);
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+}
+
+.brr {
+  position: absolute;
+  background-color: yellow;
+  top: 300px;
+  width: 900px;
+  height: 70px;
+  font-size: 50px;
+  padding-left: 50px;
+}
+
+.niks {
+  position: absolute;
+  background-color: yellow;
+  top: 0px;
+  left: 1193px;
+  width: 100px;
+  height: 70px;
+}
+
+.koud {
+  position: relative;
+  background-color: rgba(241, 236, 239, 0.8);
+  top: 30px;
+  left: 30px;
+  width: 600px;
+  transparency: 10%;
+  font-size: 25px;
+  padding-left: 10px;
+  color: zwart;
+}

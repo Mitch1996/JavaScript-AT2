@@ -1,8 +1,48 @@
-* {
+/* .tekst #tekst2 {
+}
+
+div {
+  color: green;
+}
+
+div p {
+  color: blue;
+}
+
+/* .groen {
+  color: green;
+} */
+
+/* p {
+  color: green;
+}
+
+p + p {
   color: black;
-  font-family: "Averta", Sans-serif;
-  font-size: 68px;
-  font-weight: bold;
-  line-height: 75px;
-  letter-spacing: 0.1px;
+} */
+
+/* p {
+  background-color: green;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 50px;
+}
+
+span {
+  background-color: white;
+  border: 2px solid black;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid black;
+} */
+
+body {
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/675172642/pura-ulun-danu-bratan-temple-in-Bali-/960x0.jpg?format=jpg&width=960");
 }
