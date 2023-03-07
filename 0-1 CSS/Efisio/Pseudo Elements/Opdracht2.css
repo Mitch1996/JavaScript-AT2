@@ -1,0 +1,49 @@
+.container {
+  padding-top: 40px;
+}
+
+h3 {
+  margin-top: 0!important;
+}
+
+.balk {
+  width: 500px;
+  margin: 1%;
+  height: 60px;
+  float: left;
+  position: relative;
+  background-color: cadetblue;
+}
+
+.balk .wrap:before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 10px solid orange;
+  border-left: 10px solid orange;
+}
+
+.balk .wrap:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  border-top: 10px solid orange;
+  border-right: 10px solid orange;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+  padding: 13px;
+  margin-top: 3.5em;
+  margin-left: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+

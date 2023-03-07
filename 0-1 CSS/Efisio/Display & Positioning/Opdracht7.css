@@ -1,0 +1,19 @@
+h1 {
+    position: absolute;
+    font-size: 50px;
+    left: 360px;
+    top: 20px;
+}
+
+p {
+    position: relative;
+    font-size: 20px;
+    left: 425px;
+    top: -375px;
+    color: yellow;
+}
+
+span{
+    color: white;
+}
+
