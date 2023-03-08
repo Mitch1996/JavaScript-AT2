@@ -1,0 +1,205 @@
+/*Opdracht 1*/
+.flex-container {
+    display: flex;
+    background-color: rgb(234, 234, 103);
+}
+
+.flex-container>div {
+    background-color: #95ddb8;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*Opdracht 2*/
+.flex-container2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(234, 234, 103);
+}
+
+.flex-container2>div {
+    background-color: #95ddb8;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+/*Opdracht 3*/
+.flex-container3 {
+    display: flex;
+    background-color: rgb(234, 234, 103);
+}
+
+.flex-container3>div {
+    background-color: #95ddb8;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.grow {
+    flex-grow: 3;
+}
+
+/*Opdracht 4*/
+.flex-container4 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(70, 83, 155);
+}
+
+.flex-container4>div {
+    background-color: #8f4394;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*Opdracht 5*/
+.flex-container5 {
+    display: flex;
+    align-items: stretch;
+    min-height: 40vh;
+    background-color: rgb(70, 130, 155);
+}
+
+.flex-container5>div {
+    background-color: #5bbb52;
+
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*Opdracht 6*/
+.flex-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(70, 130, 155);
+}
+
+.flex-container6>div {
+    background-color: #95ddb8;
+    margin: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.horizon1 {
+    width: 90%
+}
+
+.horizon2 {
+
+    width: 40%;
+}
+
+.horizon3 {
+    width: 55%;
+}
+
+.horizon4 {
+
+    width: 60%;
+}
+
+.horizon5 {
+
+    width: 20%;
+}
+
+.horizon6 {
+    width: 35%;
+}
+
+/*Opdracht 7*/
+
+
+.flex-container7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(70, 130, 155);
+}
+
+.flex-container7>div {
+    background-color: #95ddb8;
+    margin: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.vertical1 {
+    height: 90%;
+}
+
+.vertical2 {
+    height: 40%;
+
+}
+
+.vertical3 {
+    height: 55%;
+}
+
+.vertical4 {
+    height: 60%;
+}
+
+.vertical5 {
+
+    height: 20%;
+}
+
+.vertical6 {
+    height: 35%;
+}
+
+/*Opdracht 8*/
+
+.flex-container8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    background-color: white;
+}
+
+.flex-container8>div {
+
+    margin: 0px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 25%;
+    border-color: black;
+    border-style: dotted;
+}
+
+.wrap1 {
+    background-color: white;
+}
+
+.wrap2 {
+    background: #95ddb8;
+}
+
+.wrap3 {
+    background-color: #5bbb52;
+}
+
+.wrap4 {
+    background-color: #8f4394;
+}
+
+.wrap5 {
+    background-color: black;
+    color: white
+}
+
+.wrap6 {
+    background: linear-gradient(35deg, purple, grey);
+}

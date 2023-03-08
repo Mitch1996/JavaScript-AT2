@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elements: Opdracht 1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <h1>Opdracht 1</h1>
+
+    <h3>Er zijn 14 verschillende pseudo-elementen. Beschrijf ze alle 14 kort en maak voor elk een voorbeeld.</h3>
+
+<ol>
+    <li class="After">After: Hierbij wordt iets toegevoegd achter het gekozen element.</li>
+
+    <br>
+
+    <li class="Before">Before: Hierbij wordt iets toegevoegd voor het gekozen element</li>
+
+    <br>
+
+    <li class=" FirstLine">First-Line: Hiermee kun je de eerste regel stijlen. 
+        ------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------------------
+        --------------------------------------------------------------------- Dit geldt dus niet voor overige regels.</li>
+
+
+    <br>
+
+    <li class="FirstLetter">First-Letter: Hiermee kun je de eerste letter stijlen.</li>
+
+    <br>
+
+    <li class="Backdrop">Backdrop: Hieronder zie je een voorbeeld met een dialog. </li>
+
+    <br>
+
+    <dialog>
+      <h2>I'm a dialog window</h2>
+      <button onclick="closeDialog()">Close</button>
+    </dialog>  
+    <button onclick="openDialog()">Open dialog</button>
+
+    <br>
+
+    <li class="Cue">Cue:Hierbij worden WebVTT cues binnen een geselecteerd element gematched en gestijld. </li>
+
+    <br>
+    
+    <li class="FileSelectorButton">File-selector-button: Hiermee kun je het element input met type file stijlen.</li>
+    <br>
+    <form>
+      <input type="file">
+    </form>
+
+    <br>
+
+    <li class="GrammarError">Grammar-error: Hiermee kun je het gedeelte dat grammar errors heeft stijlen. </li>
+
+    <br>
+
+    <li class="Highlight">Highlight:Hiermee kun je een custom highlight stijlen. </li>
+
+    <br>
+
+    <li>Marker: In plaats van een cijfer voor elke listitem is de stijl nu veranderd naar een *.</li>
+
+    <br>
+
+    <li class="Part">Part():Hiermee stijl je elementen in een shadow tree met een matching part attribute.  </li>
+
+    <br>
+
+    <li class="Placeholder">Placeholder: Hiermee stijl je de placeholder text in een input of textarea.</li>
+    <br>
+    <input type="tel"
+       name="phone"
+       minLength="9" maxLength="9"
+       placeholder="It must be 9 digits">
+
+    <br>
+    <br>
+
+    <li class="Selection">Selection: Hiermee stijl je geselecteerde gedeeltes van een tekst.</li>
+    <p>In dit voorbeeld kun je zien dat woorden die je selecteert een roze achtergrond krijgen.</p>
+
+    <br>
+
+    <li class="SpellingError">Spelling-error: Hiermee kun je het gedeelte dat spellingsfouten heeft stijlen.</li>
+
+    <br>
+
+    <li class="TargetText">Target-text: Hiermee stijl je tekst waar naar toe gescrold is.</li>
+
+</ol>
+
+</body>
+</html>

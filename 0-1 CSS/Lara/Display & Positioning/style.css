@@ -1,0 +1,86 @@
+.opdracht2 {
+    color: rgb(255, 0, 0);
+    position: fixed;
+    top: 50px;
+    right: 50px;
+  }
+
+  .opdracht3 {
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 30px;
+    right: 20px;
+  }
+
+  .opdracht4 {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 100px;
+    right: 50px;
+  }
+
+.opdracht5 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+}
+#div1 {
+height: 100px;
+width: 100px;
+background-color: orange;
+}
+
+#div2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  background-color: rgb(7, 241, 7);
+}
+
+#white {
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#yellow {
+  color:yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#absolute {
+  position: absolute;
+}
+
+#opdracht7 {
+  text-align: left;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+}
+
+#opdracht8 {
+
+  text-align: left;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+}
+
+#div3 {
+  height: 40px;
+  width: 600px;
+  background-color:yellow
+  }
+
+
+  #div4 {
+    font-size: x-small;
+    height: 20px;
+    width: 300px;
+    background-color:aliceblue
+    }
+    
+  

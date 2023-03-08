@@ -1,0 +1,62 @@
+#after::after{
+    content: '';
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(34, 33, 32);
+    }
+#before::before{
+    content: '';
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(163, 106, 49);
+}
+#firstletter::first-letter{
+    font-size: 35px;
+    font-style: oblique;
+}
+#firstline::first-line{
+    color: rgb(89, 115, 138);
+}
+li::marker{
+    color: rgb(52, 152, 137);
+}
+#selection p::selection{
+    background-color: purple;
+    color: green;
+}
+
+       /*opdracht 2*/
+       button::after {
+        content: '';
+        position: relative;
+        top: -100%;
+        right: -100%;
+        bottom: -50%;
+        left: -50%;
+        background-color:aqua
+      }
+      button {
+        background: #267049;
+        color: #A44040;
+        font-size: 150px;
+        border-radius: 0.5em;
+        padding: 0 1em;
+        position: relative;
+        overflow: hidden;
+        line-height: 100px;
+      }
+
+      #bull::before{
+        content: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbulldog&psig=AOvVaw3NBl0B9JQcyer79JVi0SNP&ust=1677589411556000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJDmsN3htf0CFQAAAAAdAAAAABAD) ;
+    ;
+    position: absolute;
+    width: fit-content;
+    }   
+    
+    #bull ::after{
+        content:'';
+        position: absolute;
+        width: fit-content;
+    }

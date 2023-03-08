@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Pseudoelements.css">
+</head>
+<body>
+    <h2>Opdracht1</h2>
+    <h3> 1 ::after</h3>
+    <div id="after">
+        <p>Is het laatste kind van een geselecteerde element.Wordt gebruikt voor cosmetische inhoud toe te voegen aan een element samen met de property "content". Is altijd inline.</p>
+     </div>
+    <h3> 2 ::before</h3>
+    <div id="before">
+        <p>Is het eerste kind van een geselecteerde element.Wordt gebruikt voor cosmetische inhoud toe te voegen aan een element samen met de property "content". Is altijd inline.</p>
+    </div>
+    <h3> 3 ::first- letter</h3>
+    <div id="firstletter">
+        <p>Hiermee kun je de eerste letter van een paragraaf in opmaak aanpassen zonder dat de rest verandert. </p>
+    </div>
+    <h3> 4 ::first- line</h3>
+    <div id="firstline">
+        <p>Hiermee kun je de eerste zin/regel van een paragraaf in opmaak aanpassen zonder dat de rest verandert. Zie verschil eerste zin en deze zin.</p>
+    </div>
+    <h3> 5 ::marker</h3>
+    <div>
+        <p>Deze werkt op de bulletpoints of opsommingen van lijstjes. Hiermee kun je de opmaak van je lijstje veranderen</p>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </div>
+    <h3> 6 ::selection</h3>
+    <div id="selection">
+    <p>Hiermee kun je de opmaak veranderen wanneer een gebruiker een tekst selecteert. Als je nu deze paragraaf zie je de letters groen en achtergrond paars.</p>
+    <h3> 7 ::slotted</h3>
+    <div>
+        <p>vertegenwoordigt elk element dat in een slot in een HTML-sjabloon is geplaatst </p>
+        <template id="persoon gegevens">
+        <h2>Persoonlijk ID</h2>
+        <div><slot name="naam">NAAM MISSING</slot></div>
+        <slot name="leeftijd">LEEFTIJD MISSING</slot>
+        <slot name="beroep">BEROEP MISSING</slot> 
+        </div>
+        </template>
+
+        <div>
+            <h1>Opdracht 2</h1>
+            <button>Button</button>
+            </div>
+    
+            <h2 >Opdracht 3</h2>   
+            <p id="bull">Dit is een faketekst. Alles wat hier staat is slechts om een indruk te geven van het grafische effect van tekst op deze plek. Wat u hier leest is een voorbeeldtekst. Deze wordt later vervangen door de uiteindelijke tekst, die nu nog niet bekend is. De faketekst is dus een tekst die eigenlijk nergens over gaat. Het grappige is, dat mensen deze toch vaak lezen. Zelfs als men weet dat het om een faketekst gaat, lezen ze toch door.</p>
+      
+    </body>
+    </html>
+    
+
+</body>
+</html>
