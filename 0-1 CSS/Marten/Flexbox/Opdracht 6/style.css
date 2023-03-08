@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    background-color: yellow;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+#item-1{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    
+}
+
+#item-1{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow: 6;
+}
+#item-2{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow:3 ;
+
+}
+#item-3{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow: 4;
+}
+#item-4{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow:5 ;
+}
+#item-5{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+#item-6{
+    order:1;
+    background-color: green;
+    margin-top: 10px;
+    flex-grow: 2;
+}
