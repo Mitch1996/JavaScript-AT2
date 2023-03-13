@@ -1,0 +1,207 @@
+/* opdracht 1 */
+
+.flexbox-container{
+    display: flex;
+    background-color: rgb(24, 22, 22);
+}
+
+.flexbox-item{
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+/* opdracht 2 */
+
+.flexbox-container1{
+display: flex;
+justify-content: flex-end;
+background-color: rgb(24, 22, 22);
+
+}
+
+.flexbox-item{
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+/*Opdracht 3*/
+.flexbox-container3 {
+    display: flex;
+    background-color: rgb(85, 85, 10);
+}
+
+.flexbox-container3>div {
+    background-color: #428e67;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.grow {
+    flex-grow: 3;
+}
+
+/*Opdracht 4*/
+.flexbox-container4 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(60, 65, 98);
+}
+
+.flexbox-container4>div {
+    background-color: #613d64;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*Opdracht 5*/
+.flexbox-container5 {
+    display: flex;
+    align-items: stretch;
+    min-height: 40vh;
+    background-color: rgb(49, 77, 90);
+}
+
+.flexbox-container5>div {
+    background-color: #4c8048;
+
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*Opdracht 6*/
+.flexbox-container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(116, 179, 206);
+}
+
+.flexbox-container6>div {
+    background-color: #5ba47e;
+    margin: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.horizon1 {
+    width: 90%
+}
+
+.horizon2 {
+
+    width: 40%;
+}
+
+.horizon3 {
+    width: 55%;
+}
+
+.horizon4 {
+
+    width: 60%;
+}
+
+.horizon5 {
+
+    width: 20%;
+}
+
+.horizon6 {
+    width: 35%;
+}
+
+/*Opdracht 7*/
+
+
+.flexbox-container7 {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+height: 100vh;
+background-color: rgb(103, 79, 145);
+}
+
+.flexbox-container7>div {
+background-color: #638e78;
+margin: 5px;
+padding: 20px;
+font-size: 30px;
+}
+
+.vertical1 {
+height: 90%;
+}
+
+.vertical2 {
+height: 40%;
+
+}
+
+.vertical3 {
+height: 55%;
+}
+
+.vertical4 {
+height: 60%;
+}
+
+.vertical5 {
+
+height: 20%;
+}
+
+.vertical6 {
+height: 35%;
+}
+
+/*Opdracht 8*/
+
+.flexbox-container8 {
+display: flex;
+flex-wrap: wrap;
+width: 200px;
+background-color: white;
+}
+
+.flexbox-container8>div {
+
+margin: 0px;
+padding: 20px;
+font-size: 30px;
+border-radius: 25%;
+border-color: black;
+border-style: dotted;
+}
+
+.wrap1 {
+background-color: white;
+}
+
+.wrap2 {
+background: #548fb7;
+}
+
+.wrap3 {
+background-color: #6552bb;
+}
+
+.wrap4 {
+background-color: #439463;
+}
+
+.wrap5 {
+background-color: black;
+color: white
+}
+
+.wrap6 {
+background: linear-gradient(35deg, purple, grey);
+}
