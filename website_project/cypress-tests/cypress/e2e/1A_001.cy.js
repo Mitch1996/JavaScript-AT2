@@ -1,4 +1,4 @@
-describe("Productoverzicht test", () => {
+/* describe("Productoverzicht test", () => {
   it("Navigeer naar productoverzicht en controleer alle producten", () => {
     cy.visit("https://techgrounds-at2.myshopify.com/collections/all");
 
@@ -21,9 +21,16 @@ describe("Productoverzicht test", () => {
   //     });  
   // }
 }) // ctrl + /
-});
+}); */
 
 
-/*
- 
-*/
+
+describe("Testen of alle overzichtspagina's aanwezig zijn", () => {
+  it("Navigeer naar https://techgrounds-at2.myshopify.com/", ()=>{
+    
+  });
+  it("Vergelijk alle overzicht met vereiste data", ()=>{
+    
+  });
+}
+);
